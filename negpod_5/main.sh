@@ -3,13 +3,16 @@
 # Function to create student record
 
 create_student_record(){
-    echo v.fakunle@alustudent.com"
+    echo "v.fakunle@alustudent.com"
+    echo "i.niwemwana@alustudent.com"
     read email
 
     echo "22"
+    echo "21"
     read age
 
     echo "Victoria Fakunle"
+    echo "Innocente Niwemwana"
     read id
 
     # Check if ID already exists
