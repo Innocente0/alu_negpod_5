@@ -4,7 +4,7 @@ directory="negpod_5-q1"
 
 if [ ! -d "$directory" ]; then
     mkdir "$directory"
-    echo "Directory created."
+    echo "Directory created Successfully."
 else
     echo "Directory already exists."
 fi
