@@ -6,3 +6,6 @@ remote_username="64293e56bc62"
 remote_password="328d3b338a4ced526c9a"
 remote_directory="/summative/1023-2024j"
 local_directory="negpod_5-q1"
+perform_backup() {
+    echo "Starting backup..."
+}
