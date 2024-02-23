@@ -8,4 +8,6 @@ remote_directory="/summative/1023-2024j"
 local_directory="negpod_5-q1"
 perform_backup() {
     echo "Starting backup..."
-}
+perform_backup() {
+    echo "Starting backup..."
+}}
