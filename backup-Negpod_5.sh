@@ -10,4 +10,6 @@ perform_backup() {
     echo "Starting backup..."
 perform_backup() {
     echo "Starting backup..."
-}}
+perform_backup() {
+    echo "Starting backup..."
+}}}
