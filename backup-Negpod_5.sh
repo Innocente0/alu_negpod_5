@@ -30,3 +30,4 @@ else
     echo "Error: Local directory '$local_directory' not found. Please provide the correct directory path."
 fi
 hello
+i am in negpod five and i love them
