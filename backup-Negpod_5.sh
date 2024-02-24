@@ -29,3 +29,4 @@ if [ -d "$local_directory" ]; then
 else
     echo "Error: Local directory '$local_directory' not found. Please provide the correct directory path."
 fi
+hello
