@@ -9,16 +9,16 @@ local_directory="negpod_5-q1"
 
 # Function to execute the backup
 perform_backup() {
-    echo "Starting backup..."
+    echo "Start backup..."
 
     # Use rsync to securely copy files to the remote server
     rsync -avz -e "sshpass -p $remote_password ssh -o StrictHostKeyChecking=no" "$local_directory" "$remote_username@$remote_host:$remote_directory"
 
     # Check if rsync command was successful
     if [ $? -eq 0 ]; then
-        echo "Backup completed successfully."
+        echo "Backup successful."
     else
-        echo "Backup failed. Please check your settings and try again."
+        echo "Backup failed."
     fi
 }
 
@@ -27,5 +27,5 @@ if [ -d "$local_directory" ]; then
     # Execute backup
     perform_backup
 else
-    echo "Error: Local directory '$local_directory' not found. Please provide the correct directory path."
+    echo "Error: Local directory '$local_directory' not found. Please provide the correct directory."
 fi
